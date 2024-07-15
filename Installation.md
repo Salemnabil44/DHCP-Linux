@@ -12,4 +12,6 @@ Ouvrir un terminal et taper la commande "sudo apt install isc-dhcp-server"
 - Adresse statique : Une adresse IP statique est une adresse qui est fixée manuellement à un appareil par un administrateur réseau et ne change pas automatiquement.
 - Adresse dynamique : Une adresse IP dynamique est une adresse attribuée automatiquement à un appareil par un serveur DHCP (Dynamic Host Configuration Protocol) et peut changer à chaque nouvelle connexion ou après un certain temps.
 - Pour modifier le fichier de configuration des interfaces réseau sur un système basé sur Linux tapez "sudo nano /etc/network/interfaces
+  mettre un # devant l'adress ip et le netmask et modifier static par dhcp
 
+## Étape 2 : 
