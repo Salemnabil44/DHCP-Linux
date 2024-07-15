@@ -14,4 +14,6 @@ Ouvrir un terminal et taper la commande "sudo apt install isc-dhcp-server"
 - Pour modifier le fichier de configuration des interfaces réseau sur un système basé sur Linux tapez "sudo nano /etc/network/interfaces
   mettre un # devant l'adress ip et le netmask et modifier static par dhcp
 
-## Étape 2 : 
+## Étape 2 : Configuration du serveur DHCP dans Ubuntu
+
+Le fichier de configuration DHCP principal est /etc/dhcp/dhcpd.conf, vous devez ajouter toutes vos informations réseau à envoyer aux clients ici.
